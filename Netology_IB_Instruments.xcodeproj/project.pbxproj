@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89D5F27226793F4F00AF900F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5F27126793F4F00AF900F /* AppDelegate.swift */; };
+		89D5F27426793F4F00AF900F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5F27326793F4F00AF900F /* SceneDelegate.swift */; };
+		89D5F27626793F4F00AF900F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5F27526793F4F00AF900F /* ViewController.swift */; };
+		89D5F27926793F4F00AF900F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D5F27726793F4F00AF900F /* Main.storyboard */; };
+		89D5F27B26793F5200AF900F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D5F27A26793F5200AF900F /* Assets.xcassets */; };
+		89D5F27E26793F5200AF900F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D5F27C26793F5200AF900F /* LaunchScreen.storyboard */; };
+		89D5F28926793F5300AF900F /* Netology_IB_InstrumentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5F28826793F5300AF900F /* Netology_IB_InstrumentsTests.swift */; };
+		89D5F29426793F5300AF900F /* Netology_IB_InstrumentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5F29326793F5300AF900F /* Netology_IB_InstrumentsUITests.swift */; };
+		89D5F2A22679418900AF900F /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89D5F2A12679418900AF900F /* ProfileView.xib */; };
+		89D5F2A92679C35800AF900F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5F2A82679C35800AF900F /* ProfileView.swift */; };
+		89D5F2AB2679D1B900AF900F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D5F2AA2679D1B900AF900F /* Profile.storyboard */; };
+		89D5F2AD2679D1E100AF900F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5F2AC2679D1E100AF900F /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89D5F28526793F5300AF900F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89D5F26626793F4F00AF900F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89D5F26D26793F4F00AF900F;
+			remoteInfo = Netology_IB_Instruments;
+		};
+		89D5F29026793F5300AF900F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89D5F26626793F4F00AF900F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89D5F26D26793F4F00AF900F;
+			remoteInfo = Netology_IB_Instruments;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89D5F26E26793F4F00AF900F /* Netology_IB_Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netology_IB_Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D5F27126793F4F00AF900F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89D5F27326793F4F00AF900F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89D5F27526793F4F00AF900F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89D5F27826793F4F00AF900F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89D5F27A26793F5200AF900F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89D5F27D26793F5200AF900F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89D5F27F26793F5200AF900F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D5F28426793F5300AF900F /* Netology_IB_InstrumentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Netology_IB_InstrumentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D5F28826793F5300AF900F /* Netology_IB_InstrumentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netology_IB_InstrumentsTests.swift; sourceTree = "<group>"; };
+		89D5F28A26793F5300AF900F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D5F28F26793F5300AF900F /* Netology_IB_InstrumentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Netology_IB_InstrumentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D5F29326793F5300AF900F /* Netology_IB_InstrumentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netology_IB_InstrumentsUITests.swift; sourceTree = "<group>"; };
+		89D5F29526793F5300AF900F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D5F2A12679418900AF900F /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		89D5F2A82679C35800AF900F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		89D5F2AA2679D1B900AF900F /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		89D5F2AC2679D1E100AF900F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89D5F26B26793F4F00AF900F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D5F28126793F5300AF900F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D5F28C26793F5300AF900F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89D5F26526793F4F00AF900F = {
+			isa = PBXGroup;
+			children = (
+				89D5F27026793F4F00AF900F /* Netology_IB_Instruments */,
+				89D5F28726793F5300AF900F /* Netology_IB_InstrumentsTests */,
+				89D5F29226793F5300AF900F /* Netology_IB_InstrumentsUITests */,
+				89D5F26F26793F4F00AF900F /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		89D5F26F26793F4F00AF900F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89D5F26E26793F4F00AF900F /* Netology_IB_Instruments.app */,
+				89D5F28426793F5300AF900F /* Netology_IB_InstrumentsTests.xctest */,
+				89D5F28F26793F5300AF900F /* Netology_IB_InstrumentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89D5F27026793F4F00AF900F /* Netology_IB_Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				89D5F2A52679466E00AF900F /* ProfileView */,
+				89D5F27126793F4F00AF900F /* AppDelegate.swift */,
+				89D5F2AE2679E0FC00AF900F /* Profile */,
+				89D5F27326793F4F00AF900F /* SceneDelegate.swift */,
+				89D5F27526793F4F00AF900F /* ViewController.swift */,
+				89D5F27726793F4F00AF900F /* Main.storyboard */,
+				89D5F27A26793F5200AF900F /* Assets.xcassets */,
+				89D5F27C26793F5200AF900F /* LaunchScreen.storyboard */,
+				89D5F27F26793F5200AF900F /* Info.plist */,
+			);
+			path = Netology_IB_Instruments;
+			sourceTree = "<group>";
+		};
+		89D5F28726793F5300AF900F /* Netology_IB_InstrumentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				89D5F28826793F5300AF900F /* Netology_IB_InstrumentsTests.swift */,
+				89D5F28A26793F5300AF900F /* Info.plist */,
+			);
+			path = Netology_IB_InstrumentsTests;
+			sourceTree = "<group>";
+		};
+		89D5F29226793F5300AF900F /* Netology_IB_InstrumentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89D5F29326793F5300AF900F /* Netology_IB_InstrumentsUITests.swift */,
+				89D5F29526793F5300AF900F /* Info.plist */,
+			);
+			path = Netology_IB_InstrumentsUITests;
+			sourceTree = "<group>";
+		};
+		89D5F2A52679466E00AF900F /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				89D5F2A12679418900AF900F /* ProfileView.xib */,
+				89D5F2A82679C35800AF900F /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		89D5F2AE2679E0FC00AF900F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				89D5F2AA2679D1B900AF900F /* Profile.storyboard */,
+				89D5F2AC2679D1E100AF900F /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89D5F26D26793F4F00AF900F /* Netology_IB_Instruments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D5F29826793F5300AF900F /* Build configuration list for PBXNativeTarget "Netology_IB_Instruments" */;
+			buildPhases = (
+				89D5F26A26793F4F00AF900F /* Sources */,
+				89D5F26B26793F4F00AF900F /* Frameworks */,
+				89D5F26C26793F4F00AF900F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Netology_IB_Instruments;
+			productName = Netology_IB_Instruments;
+			productReference = 89D5F26E26793F4F00AF900F /* Netology_IB_Instruments.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89D5F28326793F5300AF900F /* Netology_IB_InstrumentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D5F29B26793F5300AF900F /* Build configuration list for PBXNativeTarget "Netology_IB_InstrumentsTests" */;
+			buildPhases = (
+				89D5F28026793F5300AF900F /* Sources */,
+				89D5F28126793F5300AF900F /* Frameworks */,
+				89D5F28226793F5300AF900F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89D5F28626793F5300AF900F /* PBXTargetDependency */,
+			);
+			name = Netology_IB_InstrumentsTests;
+			productName = Netology_IB_InstrumentsTests;
+			productReference = 89D5F28426793F5300AF900F /* Netology_IB_InstrumentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89D5F28E26793F5300AF900F /* Netology_IB_InstrumentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D5F29E26793F5300AF900F /* Build configuration list for PBXNativeTarget "Netology_IB_InstrumentsUITests" */;
+			buildPhases = (
+				89D5F28B26793F5300AF900F /* Sources */,
+				89D5F28C26793F5300AF900F /* Frameworks */,
+				89D5F28D26793F5300AF900F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89D5F29126793F5300AF900F /* PBXTargetDependency */,
+			);
+			name = Netology_IB_InstrumentsUITests;
+			productName = Netology_IB_InstrumentsUITests;
+			productReference = 89D5F28F26793F5300AF900F /* Netology_IB_InstrumentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89D5F26626793F4F00AF900F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					89D5F26D26793F4F00AF900F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					89D5F28326793F5300AF900F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 89D5F26D26793F4F00AF900F;
+					};
+					89D5F28E26793F5300AF900F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 89D5F26D26793F4F00AF900F;
+					};
+				};
+			};
+			buildConfigurationList = 89D5F26926793F4F00AF900F /* Build configuration list for PBXProject "Netology_IB_Instruments" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89D5F26526793F4F00AF900F;
+			productRefGroup = 89D5F26F26793F4F00AF900F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89D5F26D26793F4F00AF900F /* Netology_IB_Instruments */,
+				89D5F28326793F5300AF900F /* Netology_IB_InstrumentsTests */,
+				89D5F28E26793F5300AF900F /* Netology_IB_InstrumentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89D5F26C26793F4F00AF900F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D5F2A22679418900AF900F /* ProfileView.xib in Resources */,
+				89D5F27E26793F5200AF900F /* LaunchScreen.storyboard in Resources */,
+				89D5F2AB2679D1B900AF900F /* Profile.storyboard in Resources */,
+				89D5F27B26793F5200AF900F /* Assets.xcassets in Resources */,
+				89D5F27926793F4F00AF900F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D5F28226793F5300AF900F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D5F28D26793F5300AF900F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89D5F26A26793F4F00AF900F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D5F2AD2679D1E100AF900F /* ProfileViewController.swift in Sources */,
+				89D5F2A92679C35800AF900F /* ProfileView.swift in Sources */,
+				89D5F27626793F4F00AF900F /* ViewController.swift in Sources */,
+				89D5F27226793F4F00AF900F /* AppDelegate.swift in Sources */,
+				89D5F27426793F4F00AF900F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D5F28026793F5300AF900F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D5F28926793F5300AF900F /* Netology_IB_InstrumentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D5F28B26793F5300AF900F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D5F29426793F5300AF900F /* Netology_IB_InstrumentsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89D5F28626793F5300AF900F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89D5F26D26793F4F00AF900F /* Netology_IB_Instruments */;
+			targetProxy = 89D5F28526793F5300AF900F /* PBXContainerItemProxy */;
+		};
+		89D5F29126793F5300AF900F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89D5F26D26793F4F00AF900F /* Netology_IB_Instruments */;
+			targetProxy = 89D5F29026793F5300AF900F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89D5F27726793F4F00AF900F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89D5F27826793F4F00AF900F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89D5F27C26793F5200AF900F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89D5F27D26793F5200AF900F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89D5F29626793F5300AF900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89D5F29726793F5300AF900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89D5F29926793F5300AF900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9HY6NY658;
+				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Netology-IB-Instruments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89D5F29A26793F5300AF900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9HY6NY658;
+				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Netology-IB-Instruments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89D5F29C26793F5300AF900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9HY6NY658;
+				INFOPLIST_FILE = Netology_IB_InstrumentsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Netology-IB-InstrumentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netology_IB_Instruments.app/Netology_IB_Instruments";
+			};
+			name = Debug;
+		};
+		89D5F29D26793F5300AF900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9HY6NY658;
+				INFOPLIST_FILE = Netology_IB_InstrumentsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Netology-IB-InstrumentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netology_IB_Instruments.app/Netology_IB_Instruments";
+			};
+			name = Release;
+		};
+		89D5F29F26793F5300AF900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9HY6NY658;
+				INFOPLIST_FILE = Netology_IB_InstrumentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Netology-IB-InstrumentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Netology_IB_Instruments;
+			};
+			name = Debug;
+		};
+		89D5F2A026793F5300AF900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9HY6NY658;
+				INFOPLIST_FILE = Netology_IB_InstrumentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Netology-IB-InstrumentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Netology_IB_Instruments;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89D5F26926793F4F00AF900F /* Build configuration list for PBXProject "Netology_IB_Instruments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D5F29626793F5300AF900F /* Debug */,
+				89D5F29726793F5300AF900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D5F29826793F5300AF900F /* Build configuration list for PBXNativeTarget "Netology_IB_Instruments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D5F29926793F5300AF900F /* Debug */,
+				89D5F29A26793F5300AF900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D5F29B26793F5300AF900F /* Build configuration list for PBXNativeTarget "Netology_IB_InstrumentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D5F29C26793F5300AF900F /* Debug */,
+				89D5F29D26793F5300AF900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D5F29E26793F5300AF900F /* Build configuration list for PBXNativeTarget "Netology_IB_InstrumentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D5F29F26793F5300AF900F /* Debug */,
+				89D5F2A026793F5300AF900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89D5F26626793F4F00AF900F /* Project object */;
+}
