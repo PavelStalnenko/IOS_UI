@@ -14,7 +14,7 @@ class ProfileViewController: UIViewController {
         let profileView = String(describing: ProfileView.self)
        if let profileView = Bundle.main.loadNibNamed(profileView, owner: nil, options: nil)?.first as? ProfileView{
         view.addSubview(profileView)
-        
+        profileView.frame = CGRect(x: 15, y: 50, width: view.bounds.width - 30, height: 570)
         }
         // Do any additional setup after loading the view.
     }

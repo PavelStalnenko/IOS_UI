@@ -16,7 +16,7 @@ class ProfileView: UIView {
     
     @IBOutlet weak var profileCity: UILabel!
     @IBOutlet weak var profileDescription: UITextView!
-    @IBOutlet weak var profileButton: UIButton!
+   
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
